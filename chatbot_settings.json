@@ -1,0 +1,11 @@
+{
+  "api_key": "",
+  "allowed_ips": "",
+  "bot_name": "ََجواد",
+  "bot_description": "",
+  "default_language": "fa",
+  "bot_active": true,
+  "tts_voice": "nova",
+  "tts_speed": 1.0,
+  "tts_accent": "تهرانی"
+}

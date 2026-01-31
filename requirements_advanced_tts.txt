@@ -1,0 +1,65 @@
+# Requirements for Advanced TTS with LLM Models
+# پیش‌نیازهای TTS پیشرفته با مدل‌های LLM
+
+# Core Flask and LangChain
+flask>=2.3.0
+langchain>=0.1.0
+langchain-openai>=0.0.2
+langchain-core>=0.1.0
+chromadb>=0.4.0
+
+# Advanced TTS Libraries
+requests>=2.31.0
+numpy>=1.24.0
+pathlib2>=2.3.7
+
+# Azure Cognitive Services (Best for Persian)
+azure-cognitiveservices-speech>=1.31.0
+
+# Google Cloud Text-to-Speech
+google-cloud-texttospeech>=2.16.0
+
+# ElevenLabs (High Quality Voices)
+elevenlabs>=0.2.26
+
+# OpenAI TTS
+openai>=1.3.0
+
+# Coqui TTS (Open Source)
+TTS>=0.22.0
+
+# Audio Processing
+pydub>=0.25.1
+librosa>=0.10.1
+
+# Environment and Configuration
+python-dotenv>=1.0.0
+pandas>=2.0.0
+markdown>=3.5.0
+
+# Additional Dependencies
+tempfile
+base64
+json
+logging
+typing
+
+# Optional: For better Persian text processing
+arabic-reshaper>=3.0.0
+python-bidi>=0.4.2
+pdf2image>=1.16.3
+pytesseract>=0.3.10
+
+# Optional: For voice cloning and customization
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+
+# Optional: For real-time audio streaming
+websockets>=11.0.0
+asyncio
+
+# Optional: For audio format conversion
+ffmpeg-python>=0.2.0
+soundfile>=0.12.1 
+SpeechRecognition>=3.10.0 
